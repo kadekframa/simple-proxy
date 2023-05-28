@@ -5,14 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kadek Frama",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "cors-anywhere": "^0.4.4",
-    "nodemon": "^2.0.22"
+    "cors-anywhere": "^0.4.4"
   }
 }
