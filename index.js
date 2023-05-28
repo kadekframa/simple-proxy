@@ -1,4 +1,4 @@
-const cors_proxy = require("cors-anywhere");
+import cors_proxy from "cors-anywhere";
 
 const host = process.env.HOST || "0.0.0.0";
 
